@@ -14,6 +14,10 @@ function App () {
     <div className="mt-3 ml-4 text section-header">OBJECTIVE</div>
     <div className="mx-4 my-1 line"></div>
     <div className="mx-4 text content">Software Engineer with 3+ years of experience in JavaScript and Python, open to full-stack or front-end web development roles.</div>
+    <div className="mt-3 ml-4 text section-header">EDUCATION</div>
+    <div className="mx-4 my-1 line"></div>
+    <div className="mt-2 ml-4 text section-header">Full-Stack Developer</div>
+    <div className="mx-4 text content">Apple</div>
   </>
 }
 
