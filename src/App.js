@@ -1,12 +1,11 @@
-import { useEffect } from 'react'
-
-const url = 'https://bit.ly/andrew-robles-resume'
+import { Routes, Route } from 'react-router-dom'
+import Resume from './components/Resume'
 
 function App() {
-  useEffect(() => {
-    window.location.replace(url)
-  }, [])
-  return <></>
+  return <Routes>
+      <Route path='/' element={ <></> }/>
+      <Route path='/resume' element={ <Resume/> }/>
+  </Routes>
 }
 
 export default App;
